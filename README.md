@@ -9,10 +9,9 @@ Este repositório guarda os exercícios e projetos práticos que desenvolvo dura
 
 ### 📁 Estrutura do projeto
 
-O código está organizado dentro da pasta `src`, separado por tópicos:
+O código está organizado dentro da pasta `src`, separado por tópicos de aprendizado:
 
-*   `secao04_estrutura_sequencial`: Exercícios iniciais de lógica, entrada/saída de dados e operações matemáticas.
-
-* * *
+*   **secao04\_estrutura\_sequencial**: Exercícios iniciais de lógica, entrada/saída de dados e operações matemáticas.
+*   **secao05\_estrutura\_condicional**: Exercícios práticos aplicando estruturas de decisão (`if`, `else if`, `else`).
 
 📝 *Espaço focado no meu aprendizado e evolução diária na programação.*
