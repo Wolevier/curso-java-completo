@@ -4,7 +4,7 @@ import java.util.Locale;
 
 public class Exercicio09ContaTelefonica {
 
-    public static final double PLANO_BASICO = 50.00; // O plano básico da direito a 100 minutos de telefonema.
+    public static final double PLANO_BASICO = 50.00;
 
     public static void main(String[] args){
 
@@ -15,12 +15,13 @@ public class Exercicio09ContaTelefonica {
         int minutosConsumidos = sc.nextInt();
         double contaAPagar = PLANO_BASICO;
 
-        if(minutosConsumidos > 100){
-            contaAPagar = PLANO_BASICO + (minutosConsumidos - 100) * 2.00;
+        if (minutosConsumidos > 100) {
+            contaAPagar += (minutosConsumidos - 100) * 2.00;
         }
 
-        System.out.printf("Valor da conta: R$ %.2f",contaAPagar);
+        System.out.printf("Valor da conta: R$ %.2f%n", contaAPagar);
 
         sc.close();
     }
 }
+
