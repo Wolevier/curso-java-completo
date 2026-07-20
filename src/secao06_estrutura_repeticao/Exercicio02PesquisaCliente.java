@@ -17,9 +17,7 @@ public class Exercicio02PesquisaCliente {
         Scanner sc = new Scanner(System.in);
 
         int tipoCombustivel = 0;
-        int     contadorAlcool = 0,
-                contadorGasolina = 0,
-                contadorDiesel = 0;
+        int contadorAlcool = 0, contadorGasolina = 0, contadorDiesel = 0;
 
         while(tipoCombustivel != 4) {
             System.out.printf("""
