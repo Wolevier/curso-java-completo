@@ -13,19 +13,20 @@ public class Exercicio01Login {
 
         System.out.println("ÁREA DE ACESSO");
 
-        do{
+        do {
             System.out.print("Login: ");
             login = sc.nextLine().trim();
+
             System.out.print("Senha: ");
             password = sc.nextLine().trim();
 
-            if(!login.equals("wolive") || !password.equals("1234")){
-                System.out.println("Login ou senha inválidos. Por favor, tente novamente!");}
+            if (!login.equals("wolive") || !password.equals("1234")) {
+                System.out.println("Erro: Dados incorretos. Tente novamente.\n");
             }
 
-        while(!login.equals("wolive") || !password.equals("1234"));
+        } while (!login.equals("wolive") || !password.equals("1234"));
 
-            System.out.printf("Login efetuado com sucesso: Bem vindo! %s\n",login);
+        System.out.printf("Login efetuado com sucesso: Bem vindo! %s\n", login);
 
         sc.close();
     }
