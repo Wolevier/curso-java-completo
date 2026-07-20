@@ -1,16 +1,17 @@
 package secao05_estrutura_condicional;
+
 import java.util.Scanner;
 
 public class Exercicio10DiaSemana {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("Insira um numero de 1 a 7 para saber o dia da semana:");
         Scanner sc = new Scanner(System.in);
         int numero = sc.nextInt();
         String diaDaSemana;
 
-        switch (numero){
+        switch (numero) {
             case 1:
                 diaDaSemana = "domingo";
                 break;
@@ -38,7 +39,7 @@ public class Exercicio10DiaSemana {
 
         }
 
-        System.out.println("Dia da semana: "+diaDaSemana);
+        System.out.println("Dia da semana: " + diaDaSemana);
 
         sc.close();
     }
