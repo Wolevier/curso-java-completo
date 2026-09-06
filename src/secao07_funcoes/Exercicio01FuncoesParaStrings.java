@@ -1,4 +1,4 @@
-package secao07_funcoes_para_string;
+package secao07_funcoes;
 
 /*
 * Conhecendo e praticando algumas funções para Strings.
